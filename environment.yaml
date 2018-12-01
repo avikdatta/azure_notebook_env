@@ -6,11 +6,8 @@ channels:
   - defaults
 dependencies:
   - python=3.6.0
-  - illumina-interop
   - samtools
   - bwa
-  - star
-  - bedtools
   - r-base
   - bioconductor-deseq2
   - bioconductor-edger
