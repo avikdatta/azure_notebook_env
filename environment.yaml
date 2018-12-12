@@ -3,7 +3,9 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+  - r
 dependencies:
+  - r==3.4.1
   - bioconductor-edger
   - samtools
   - salmon
