@@ -1,8 +1,12 @@
 name: pipeline-env
 channels:
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
+  - bioconductor-edger
+  - samtools
+  - salmon
   - pip:
     - matplotlib
     - seaborn
